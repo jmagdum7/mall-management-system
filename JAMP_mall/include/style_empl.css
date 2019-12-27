@@ -1,0 +1,108 @@
+*{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+.page-nav{
+    position:relative;
+    z-index:1030;
+}
+
+.page-nav > ul {
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+    background-color: lightgoldenrodyellow;
+}
+
+.page-nav > ul > li {
+	float: left;
+}
+
+li a{
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 10px 0px;
+	text-decoration: none;
+    cursor: pointer;
+}
+
+.active {
+    background-color: #D85427;
+}
+
+li a:hover:not(.active) {
+    background-color: #C24B23;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: grey;
+}
+/*
+::-moz-placeholder {  Firefox 19+ 
+  color: pink;
+}
+*/
+/*
+:-ms-input-placeholder {  IE 10+ 
+  color: pink;
+}
+*/
+/*
+:-moz-placeholder {  Firefox 18- 
+  color: pink;
+}
+*/
+
+.employee_details_form{
+    position: absolute;
+    background-color: white;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height: 98%;
+    margin: auto;
+    padding: 0.5%;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+input, select{
+    border-style: solid;
+    border-color: #e4dfdf;
+    color: black;
+    margin-bottom: 0px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+input{
+    padding-left: 7px;
+}
+select{
+    padding-left: 4px;
+}
+
+.btn{
+    background-color: #D85427;
+    padding: .25em 1.5em;
+    border-style: solid;
+    border-color: #D85427;
+    border-radius: .5em;
+    color: white;
+    min-width: 100px;
+    font-size: 0.875em;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+span{
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+}
+fieldset{
+    border:0px;
+    padding:0px;
+}

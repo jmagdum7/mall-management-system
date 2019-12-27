@@ -1,0 +1,33 @@
+*{
+    font-family: "Open Sans Condensed",sans-serif;
+}
+
+body{
+    background-color: grey;
+    color: white;
+    overflow: hidden;
+}
+
+table{
+    width: 80% ;
+    height: 98%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:black;
+}
+
+th{
+    height: 150px;
+    width:50%;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+table, th, td {
+    border: 1px solid GREY;
+}
