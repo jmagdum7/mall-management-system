@@ -19,4 +19,9 @@ Explanation/ Scope:
 For more detailed explanations and involved concepts, please read the Project Report.pdf
 
 How to Run:
-1. 
+1. Clone/ Download the repository.
+2. Install apache dependencies to run php files OR other softwares that will allow you to run php files.
+3. For UBuntu, all php files need to be placed inside the Co to omputer/var/www/html folder.
+4. Place the JAMP_mall folder inside Computer/var/www/html folder.
+5. Start localhost.
+6. Go to a browser and type : localhost/JAMP_mall/index.html
